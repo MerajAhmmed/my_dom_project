@@ -1,0 +1,64 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 0.5rem 2rem;
+    outline: none;
+    background-color: rgb(15, 117, 100);
+    color: aliceblue;
+    border: 2px solid rgb(59, 44, 44);
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2.5px;
+}
+
+button:hover{
+    background-color: rgb(9, 35, 58) ;
+    border: 1px solid whitesmoke;
+
+}
+
+h1 {
+    text-shadow: -1px -1px 0 whitesmoke, 1px -1px 0 white,-1px 1px 0 whitesmoke, 1px 1px 0 white;
+}
+
+
+
+.inputgroup{
+    margin-bottom: 3px;
+    padding: 0.5rem 2rem;
+    outline: none;
+    background-color: rgba(160, 198, 21, 0.772);
+    color: aliceblue;
+    border: 2px solid rgb(59, 44, 44);
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2.5px;
+}
+.copybtn{
+    background-color: rgb(34, 32, 47);
+}
+.input{
+    padding: 0.4rem 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
